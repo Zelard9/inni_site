@@ -1,0 +1,81 @@
+:root{
+    --light-body:#fff;
+    --dark-body:#2C2C2D;
+    --modal-button:#37B6B0;
+    --input-color:#EDEDED;
+    --dark-input:#575756;
+    --inni-text:#C6C6C6;
+    --hover-background: #2C2C2D; /* Новий колір для фону при наведенні */
+    --hover-text: #37B6B0; /* Новий колір для тексту при наведенні */
+    --hover-border: #37B6B0; /* Новий колір для рамки при наведенні */
+}
+
+.page-body{
+    background-color:var(--light-body);
+}
+
+.form-container {
+    /* display: none;  */
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+}
+
+.site-logo{
+    margin-bottom: 40px;
+}
+
+.modal-form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.form-input{
+    margin-bottom: 25px;
+    background-color: var(--input-color);
+    border: none;
+    width: 135px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-text{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: var(--dark-body);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.form-button{
+    background-color: var(--modal-button);
+    color: var(--light-body);
+    border: none;
+    width: 114px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.form-button:hover{
+    background-color: var(--hover-background);
+    color: var(--hover-text);
+    border: 1px solid var(--hover-border);
+}
+
+.inni-text{
+    color: var(--inni-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    margin-left: auto;
+   position: absolute;
+   bottom: 25px;
+   left: 47%;
+
+}
